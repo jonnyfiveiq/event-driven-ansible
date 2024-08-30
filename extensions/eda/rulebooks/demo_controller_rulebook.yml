@@ -6,7 +6,7 @@
         limit: 5
   rules:
     - name: Controller Rule
-      condition: event.i == 1
+      condition: 1 == 1
       action:
         run_job_template:
           name: Demo Job Template
